@@ -3,9 +3,9 @@ const PImage = require('pureimage');
 const config = new AWS.Config({
     accessKeyId: 'AKIAY7I3UMU6LHKDYSM4',
     secretAccessKey: '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',
-    region: 'us-west-1'
+    region: 'us-east-1'
 })
-AWS.config.update({region:'us-east-1'});
+AWS.config.update(config);
 
 const fs = require('fs');
 var rekognition = new AWS.Rekognition();
