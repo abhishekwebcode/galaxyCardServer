@@ -1,6 +1,6 @@
 # galaxyCardServer
 Server for react native Galaxycard app
-
+Frontend App Url: https://github.com/abhishekwebcode/GalaxyCard
 React Native app using version 0.64
 The app has 2 screens.
 The first screen will show camera preview using react native vision camera
